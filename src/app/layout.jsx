@@ -11,7 +11,8 @@ export default function RootLayout({ children }) {
         <title>Google Clone Next js 13</title>
         <link rel="icon" href="/favicon.svg" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}</body>
     </html>
   );
 }
