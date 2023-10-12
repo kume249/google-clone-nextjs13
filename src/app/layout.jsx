@@ -1,8 +1,8 @@
+import Footer from "./comonents/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-
 
 export default function RootLayout({ children }) {
   return (
@@ -12,7 +12,10 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.svg" />
       </head>
       <body className={inter.className}>
-        {children}</body>
+        {children}
+        {/* Footer */}
+        <Footer/>
+      </body>
     </html>
   );
 }

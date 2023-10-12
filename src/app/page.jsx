@@ -4,7 +4,7 @@ import Image from "next/image";
 import HomeSearch from "./comonents/HomeSearch";
 import HomeSearch2 from "./comonents/HomeSearch2";
 // https://www.youtube.com/watch?v=h9zlVmoUV5I&t=20436s
-//35:00～
+// 2:47:59 - Create search page for web and image  ～
 
 export default function Home() {
   return (
