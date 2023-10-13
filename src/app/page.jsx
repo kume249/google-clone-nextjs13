@@ -1,9 +1,8 @@
-import React from "react";
 import HomeHeader from "./comonents/HomeHeader";
 import Image from "next/image";
 import HomeSearch from "./comonents/HomeSearch";
 // https://www.youtube.com/watch?v=h9zlVmoUV5I&t=20436s
-// 2:47:59 - Create search page for web and image  ～
+// 3:25:14 - Complete the search box component  ～
 
 export default function Home() {
   return (

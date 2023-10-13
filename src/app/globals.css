@@ -10,5 +10,9 @@
       .link {
         @apply hover:underline cursor-pointer;
       }
+
+      .header-icon{
+        @apply bg-transparent hover:bg-gray-200 rounded-full text-4xl p-2
+      }
     
 }
