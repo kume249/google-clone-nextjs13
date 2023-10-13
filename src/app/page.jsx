@@ -2,7 +2,6 @@ import React from "react";
 import HomeHeader from "./comonents/HomeHeader";
 import Image from "next/image";
 import HomeSearch from "./comonents/HomeSearch";
-import HomeSearch2 from "./comonents/HomeSearch2";
 // https://www.youtube.com/watch?v=h9zlVmoUV5I&t=20436s
 // 2:47:59 - Create search page for web and image  ～
 
