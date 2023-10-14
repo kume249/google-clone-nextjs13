@@ -18,7 +18,7 @@ export default function SearchHeader() {
           />
         </Link>
         <div className="flex-1">
-          <SearchBox />
+          <SearchBox/>
         </div>
         <div className="hidden md:inline-flex space-x-2">
           <RiSettings3Line className="header-icon" />

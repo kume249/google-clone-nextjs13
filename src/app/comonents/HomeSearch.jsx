@@ -11,7 +11,6 @@ export default function HomeSearch() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-    console.log("input", input);
     router.push(`/search/web?searchTerm=${input}`);
   };
 
@@ -22,7 +21,6 @@ export default function HomeSearch() {
       .then((res) => res.json())
       .then((data) => data[0]);
     if (!response) return;
-    console.log("response", response);
     router.push(`/search/web?searchTerm=${response}`);
     setLoading(false);
   };
@@ -31,7 +29,6 @@ export default function HomeSearch() {
   //     console.log(input)
   // },[input])
 
-  console.log(input);
 
   return (
     <>
