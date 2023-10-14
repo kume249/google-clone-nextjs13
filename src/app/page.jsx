@@ -2,7 +2,7 @@ import HomeHeader from "./comonents/HomeHeader";
 import Image from "next/image";
 import HomeSearch from "./comonents/HomeSearch";
 // https://www.youtube.com/watch?v=h9zlVmoUV5I&t=20436s
-// 3:25:14 - Complete the search box component  ～
+//  4:00:25 - Complete the search header options  ～
 
 export default function Home() {
   return (

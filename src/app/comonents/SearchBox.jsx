@@ -11,7 +11,7 @@ export default function SearchBox() {
   const router = useRouter();
   // useEffect(()=>{
   //   console.log("searchTerm",searchTerm)
-  //   setInput(searchTerm)
+  //   setInput(searchTerm
   // },[])
 
   const handleSubmit = (e) => {
@@ -19,7 +19,7 @@ export default function SearchBox() {
     if (!input.trim()) return;
     router.push(`/search/web?searchTerm=${input}`);
   };
-
+  //const className2 = 
   return (
     <form
       onSubmit={handleSubmit}
@@ -27,7 +27,7 @@ export default function SearchBox() {
     mt mx-auto max-w-[90%] 
     border border-gray-200 px-5 py-3 
     rounded-full hover:shadow-md focus-within:shadow-md 
-    transition-shadow sm:max-w-xl lg:max-w-2xl"
+    transition-shadow sm:max-w-xl lg:max-w-2xl "
     >
       <input
         type="text"
